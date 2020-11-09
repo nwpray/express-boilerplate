@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-underscore-dangle": [false]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@", "./src"]
+        ],
+        "extensions": [".js"]
+      }
+    }
+  }
+}
