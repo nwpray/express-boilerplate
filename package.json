@@ -1,6 +1,6 @@
 {
   "name": "@nicholasdigital/express-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An opinionated boilerplate for Express applications using Webpack, Babel, ESLint, Prettier, and Jest.",
   "main": "dist/index.js",
   "scripts": {
