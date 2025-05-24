@@ -1,5 +1,5 @@
 import express from 'express';
-import address from 'address';
+import * as address from 'address';
 
 import InfoController from '@/controllers/Info';
 
